@@ -23,3 +23,4 @@ exports.successProduct=(req,res,next)=>{
     exports.successstartProduct= (req, res, next) => {
         res.sendFile(path.join(__dirname, '..', 'views', 'success.html'));
     }
+    
